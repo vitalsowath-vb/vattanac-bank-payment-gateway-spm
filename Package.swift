@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VattanacPaySDK",
-            url: "https://bitbucket.org/vattanacbank/vattanac-bank-payment-gateway-spm/raw/master/VattanacPaySDK.xcframework.zip",
-            checksum: "9594c20e5791940d1ede346e3b5cdf614e41bcbf6476661308d6846881eaf772"
+            url: "https://github.com/vitalsowath-vb/vattanac-bank-payment-gateway-spm/blob/main/VattanacPaySDK.xcframework.zip",
+            checksum: "ce682946a0c44f0115949cebf00eb2b0c0bb59c5fb95b0b8272da1523cef56f5"
         )
     ]
 )
