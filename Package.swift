@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "VattanacPaySDK",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VattanacPaySDK",
-            url: "https://bitbucket.org/vattanacbank/vattanac-bank-payment-gateway-spm/src/master/VattanacPaySDK.xcframework.zip",
+            url: "https://github.com/vitalsowath-vb/vattanac-bank-payment-gateway-spm/releases/download/v1.5.13/VattanacPaySDK.xcframework.zip",
             checksum: "a13e1960c60dc8b611b7ddef66630fff5660e15e6d4bc4ba080b3880c51eebf5"
         )
     ]
