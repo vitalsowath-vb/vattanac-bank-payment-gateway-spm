@@ -1,0 +1,7 @@
+.build/
+*.xcframework
+*.zip
+.DS_Store
+*.xcodeproj
+DerivedData/
+.swiftpm/
