@@ -1,29 +1,29 @@
-# README #
+## iOS Integration Guide
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### Requirements
 
-### What is this repository for? ###
+- **iOS 11.0+**
+- **Xcode 13.0+**
+- **Swift 5.0+**
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### Installation
 
-### How do I get set up? ###
+#### Swift Package Manager (Recommended)
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+##### Via Xcode
 
-### Contribution guidelines ###
+1. **File → Add Package Dependencies**
+2. Enter URL: `https://github.com/vitalsowath-vb/vattanac-bank-payment-gateway-spm`
+3. Select **Up to Next Major Version** with `1.5.11`
+4. Click **Add Package**
 
-* Writing tests
-* Code review
-* Other guidelines
+##### Via Package.swift
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+```swift
+dependencies: [
+    .package(
+        url: "https://github.com/vitalsowath-vb/vattanac-bank-payment-gateway-spm",
+        from: "1.5.11"
+    )
+]
+```

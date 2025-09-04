@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "VattanacPaySDK",
             url: "https://github.com/vitalsowath-vb/vattanac-bank-payment-gateway-spm/raw/main/VattanacPaySDK.xcframework.zip",
-            checksum: "b6a6b59e828e4edf3c25017f49c6d33edc21c8a37657c33e63225223c4b18b00"
+            checksum: "9facbbcd100a721a3a724529c0879d8a57c642cd9e94558ee0418d058f318596"
         )
     ]
 )
