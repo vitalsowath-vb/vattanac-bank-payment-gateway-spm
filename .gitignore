@@ -1,5 +1,6 @@
 .build/
 *.xcframework
+*.xcframework.zip
 *.zip
 .DS_Store
 *.xcodeproj
